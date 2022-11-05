@@ -1,34 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>My Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-        <title>Document</title>
 </head>
+
 <body>
     <header>
-        <nav>
+       <nav class="text-right">
             <ul>
-                <li><a href="https://github.com/kkelsei127">Github</a></li>
-                <li><a href="https://www.linkedin.com/">Profile</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li> 
+                    <a href="https://github.com/">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/">Profile</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/">Contact</a>
+                </li>
             </ul>
-        </nav>    
+        </nav>
     </header>
-    <section>
-        <h2>My New Website</h2>
-        <li><a </li>
-
-    </section>
-    <section>
-        <!---contact form here-->
-    </section>
-    <section>
-        <!---add a footer-->
-    </section>
+    <main>
+        <h1 class="text-center">My New Website</h1>
+        <figure>
+            <img src="https://cdn.suwalls.com/wallpapers/anime/my-neighbor-totoro-27508-1920x1200.jpg" height="250" width="250" alt="Image coming soon!">
+            <figcaption class="text-center">Lorem ipsum blah blah</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="text-center">Please don't contact me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>                   
+                </ul>
+                <div class="text center">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="text-center">2022 Copyright Productors Productin'</footer>
+    <script src="" async defer></script>
 </body>
-
-
-
 
 </html>
